@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd opendesign && npm install && npm run build",
+  "outputDirectory": "opendesign/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
